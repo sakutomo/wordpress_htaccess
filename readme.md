@@ -1,26 +1,12 @@
-# devtools
 Name
-==== スクリプト/ツール類の色々 ====
+==== Wordpress用htaccessテンプレート ====
 
 Overview
+海外からの不正アクセスがウザいのでテンプレートを作っておきました。
 
 ## Description
-
-
-## Demo
-
-## VS. 
-
-## Requirement
-
-## Usage
-
-## Install
-
-## Contribution
-
-## Licence
-
+日本以外の国からのwp-admin|wp-login.php|xmlrpc.php|wp-cron.php
+へのアクセスを遮断します。
 
 
 ## Author
