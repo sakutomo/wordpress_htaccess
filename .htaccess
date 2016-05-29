@@ -3,7 +3,7 @@
 #  for  Wordpress 
 #  Environment :  CentOS 6.x
 #
-<Files "(/?wp-admin|wp-login.php|xmlrpc.php|wp-cron.php">
+<Files "(/?wp-login.php|xmlrpc.php|wp-cron.php">
  
 #Google Bot
 SetEnvIf User-Agent "Google" allowbot
