@@ -1,7 +1,7 @@
-Name
+#Name
 ==== Wordpress用htaccessテンプレート ====
 
-Overview
+#Overview
 海外からの不正アクセスがウザいのでテンプレートを作っておきました。
 
 ## Description
