@@ -4,36 +4,11 @@
 #  Environment :  CentOS 6.x
 #
 <Files "(/?wp-login.php|xmlrpc.php|wp-cron.php">
- 
-#Google Bot
-SetEnvIf User-Agent "Google" allowbot
-SetEnvIf User-Agent "Mediapartners" allowbot
-#Yahoo Bot
-SetEnvIf User-Agent "Slurp" allowbot
-SetEnvIf User-Agent "Y!J" allowbot
-#Microsoft Bot
-SetEnvIf User-Agent "bingbot" allowbot
-SetEnvIf User-Agent "msnbot" allowbot
-#Apple Bot
-SetEnvIf User-Agent "Applebot" allowbot
-#Facebook Bot
-SetEnvIf User-Agent "facebook" allowbot
+
  
 order deny,allow
 deny from all
  
-#Allow bot
-allow from env=allowbot
-#Allow feedly
-allow from .feedly.com
-#Allow msn
-allow from .msn.com
-#Allow facebook
-allow from .facebook.com
-#Allow twitter
-allow from .twttr.com
-allow from .twitter.com
-
 allow from 1.0.16.0/20
 allow from 1.0.64.0/18
 allow from 1.1.64.0/18
